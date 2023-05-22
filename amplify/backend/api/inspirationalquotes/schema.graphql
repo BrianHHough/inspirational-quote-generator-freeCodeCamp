@@ -1,0 +1,30 @@
+# This "input" configures a global authorization rule to enable public access to
+# all models in this schema. Learn more about authorization rules here: https://docs.amplify.aws/cli/graphql/authorization-rules
+
+# Query - speak to AWS Lambda
+type Query {
+  generateAQuote(input: AWSJSON!): String 
+  @auth(rules: [
+    { allow: public, provider: iam },
+  ])
+  @function(name: "inspoquoteLambda-${env}")
+}
+
+# Public Data
+type QuoteAppData
+  @model
+  @auth(rules: [
+    { allow: public, provider: iam, operations: [read] },
+  ])
+  {
+    id: ID!
+    queryName: String!
+      @index(
+        name: "QuotesQueryName"
+        queryField: "quotesQueryName"
+      )
+    quotesGenerated: Int!
+    createdAt: String!
+    updatedAt: String!
+  }
+
