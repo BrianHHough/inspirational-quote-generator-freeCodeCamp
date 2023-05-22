@@ -47,37 +47,69 @@ The front-end development, which includes components, pages, framework setup, an
 The back-end development and deployment to AWS is intended to be built from scratch following the steps. It is imperative to build the project from start to finish so that you do not miss any of the requisite configuration steps.
 
 ⌨️ [0:00:00]() 📱 Intro + Demo of App
+
 ⌨️ [0:07:17]() 📂 Set up your GitHub Repository
+
 ⌨️ [0:10:53]() 💻 Create a new Next.js + Styled Components project 
+
 ⌨️ [0:26:37]() 🅰️ Add Google Fonts to the App
+
 ⌨️ [0:30:22]() 🎑 Create a Dynamic Background
+
 ⌨️ [0:53:02]() 📑 Create a Footer for our Database Data
+
 ⌨️ [1:04:16]() 🚪 Create a Pop-Up with Material-UI Modal + Hype4Academy Glassomorphism
+
 ⌨️ [1:23:26]() 🖼️ Write a Node.js Script to Generate Images in CodeSandbox
+
 ⌨️ [1:36:23]() 📡 Use Node.js' fetch Function to Call ZenQuotes' API to Generate Images
+
 ⌨️ [2:04:33]() ⚙️ Use the AWS Amplify CLI to Initialize the Project 
+
 ⌨️ [2:12:01]() 🔄 Configure the App to Communicate with AWS Amplify
+
 ⌨️ [2:16:31]() 🌐 Create a GraphQL API with AWS AppSync
+
 ⌨️ [2:26:12]() 🔒 Add Authentication with Amazon Cognito and IAM
+
 ⌨️ [2:30:08]() 🌩️ Add an AWS Lambda function to the AWS services stack
+
 ⌨️ [2:32:08]() ☁️ Deploy our initial AWS CloudFormation stack to the cloud
+
 ⌨️ [2:38:00]() 🛡️ Add Auth Directives to the GraphQL API
+
 ⌨️ [2:41:09]() 📝 Write NoSQL Data to Amazon DynamoDB
+
 ⌨️ [2:44:34]() ⏰ Write a Node.js Script to Generate AWSDateTime in CodeSandbox
+
 ⌨️ [2:51:45]() 🔎 Query Amazon DynamoDB Data with AWS AppSync
+
 ⌨️ [3:11:48]() 💬 Create the Quote Generator Pop-Up Modal with useState Hooks
+
 ⌨️ [3:35:15]() ⏳ Create Loading States for when the API calls AWS Lambda 
+
 ⌨️ [4:02:26]() 🌠 Create a Button with a Lottie Image
+
 ⌨️ [4:11:21]() 📥 Write a Function to Download Images to your Device
+
 ⌨️ [4:15:22]() 🔁 Write a useEffect Hook with Buffer to Decode Base64 Image Strings
+
 ⌨️ [4:21:18]() 🧪 Test a Mock API Response with a Base64 Encoded String
+
 ⌨️ [4:33:49]() 🔄 Deploy the Node.js Script to AWS Lambda with Access to Amazon DynamoDB
+
 ⌨️ [5:05:45]() 🧪 Test the AWS Lambda Function & Debug with Amazon CloudWatch Logs
+
 ⌨️ [5:08:13]() 🛠️ Modify Installation Script for Sharp to Work Inside of AWS Lambda
+
 ⌨️ [5:20:05]() 📜 Write a Function to Retrieve Quotes via AWS Lambda, AWS AppSync, and IAM
+
 ⌨️ [5:39:18]() 🖥️ Add App Hosting with a CI/CD Pipeline using AWS Amplify & GitHub
+
 ⌨️ [5:52:47]() 🐞 Debug the CI/CD Pipeline by Modifying the AWS Amplify Build Settings
+
 ⌨️ [6:02:47]() 🚀 Celebrate the Final Build! 
+
 ⌨️ [6:04:44]() 🎉 Project Wrap Up
 
 # Instructions for Deploying to AWS (Hosting)
