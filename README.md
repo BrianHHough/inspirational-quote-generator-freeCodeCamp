@@ -227,8 +227,3 @@ frontend:
     paths:
       - node_modules/**/*
 ```
-
-# Need support for this project?
-
-We will work hard to get back to you as soon as we possibly can; however, please expect a response back within 1-3 business days.
-https://brianhhough.typeform.com/to/UHTZhflB
